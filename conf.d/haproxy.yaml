@@ -1,0 +1,8 @@
+init_config:
+
+init_config:
+
+instances:
+    -   username: haproxy
+        password: haproxy
+        url: https://haproxy/admin?stats
