@@ -3,6 +3,6 @@ init_config:
 init_config:
 
 instances:
-    -   username: haproxy
-        password: haproxy
-        url: https://haproxy/admin?stats
+    -   username: stats
+        password: stats
+        url: https://haproxy:1936/admin?stats
