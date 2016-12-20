@@ -5,4 +5,4 @@ init_config:
 instances:
     -   username: stats
         password: stats
-        url: https://haproxy:1936/admin?stats
+        url: http://haproxy:1936/admin?stats
