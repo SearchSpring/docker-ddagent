@@ -1,4 +1,0 @@
-init_config:
-
-instances:
-  - url: http://elasticsearch:9200
