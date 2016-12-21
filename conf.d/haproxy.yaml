@@ -1,6 +1,0 @@
-init_config:
-
-instances:
-    -   username: stats
-        password: stats
-        url: http://haproxy:1936/admin?stats

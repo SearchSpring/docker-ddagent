@@ -1,0 +1,6 @@
+init_config:
+
+instances:
+    -   username: stats
+        password: stats
+        url: http://{{ .Env.HAPROXY_HOST }}:{{ .Env.HAPROXY_PORT }}/admin?stats
