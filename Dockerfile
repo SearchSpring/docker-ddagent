@@ -19,3 +19,4 @@ COPY conf.d/haproxy.yaml.tmpl /templates
 COPY myentrypoint.sh /myentrypoint.sh
 
 ENTRYPOINT ["/myentrypoint.sh"]
+CMD ["supervisord", "-n", "-c", "/etc/dd-agent/supervisor.conf"]
