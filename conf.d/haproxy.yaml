@@ -1,7 +1,5 @@
 init_config:
 
-init_config:
-
 instances:
     -   username: stats
         password: stats
